@@ -9,6 +9,12 @@ typedef struct {
 	int work_experiance;
 } person;
 
+int func(int a, int b) {
+	int c = 0;
+	c = a + b;
+	return c;
+}
+
 /*Функція, що ініціалізує нового працівника і додає його до масиву*/
 person *add_inf(person *workers, int *psize) {
 	person NewWorker = {NULL, NULL, NULL, NULL, NULL, NULL};
